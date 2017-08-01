@@ -28,9 +28,9 @@ parseDevSend(jsonData)   根据产品通信协议，解析设备上报的协议�
      示例：     
      1. eval:cls()          
         清屏。
-     2. sendDataToDevice("xxxxxx","yyyyyy",'"raw":"48070201010154"',app.mainTCPLink)    
+     2. eval:sendDataToDevice("xxxxxx","yyyyyy",'"raw":"48070201010154"',app.mainTCPLink)    
         向devTid为"xxxxxx"，ctrlKey为"yyyyyy"的设备发送协议数据"raw":"48070201010154"
-     3. sendDataToDevice("xxxxxx","yyyyyy",'"cmdId":2,"power":1',app.mainTCPLink)  
+     3. eval:sendDataToDevice("xxxxxx","yyyyyy",'"cmdId":2,"power":1',app.mainTCPLink)  
         向devTid为"xxxxxx"，ctrlKey为"yyyyyy"的设备发送协议数据"cmdId":2,"power":1
   
 2. **{"msgId" : 1,"action" : "heartbeat"}**
