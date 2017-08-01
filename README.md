@@ -35,7 +35,8 @@ parseDevSend(jsonData)   根据产品通信协议，解析设备上报的协议�
   
 2. **{"msgId" : 1,"action" : "heartbeat"}**
 
-     这样直接输入的JSON字符串必须符合[氦氪设备云端通信协议](http://docs.hekr.me/v4/%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/%E8%AE%BE%E5%A4%87%E4%BA%91%E7%AB%AF%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/)规范。
+     这样直接输入的JSON字符串必须符合[氦氪云联网功能组件](http://docs.hekr.me/v4/%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/%E4%BA%91%E7%AB%AFAPI/%E8%AE%BE%E5%A4%87%E8%81%94%E7%BD%91/)
+规范。
 
 user-example.js中出现的两个设备分别来自以下两篇教程：
 
